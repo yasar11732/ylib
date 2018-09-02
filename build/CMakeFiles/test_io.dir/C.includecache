@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ylib/dict.h
+stdlib.h
+-
+
+../include/ylib/io.h
+ylib/std.h
+../include/ylib/ylib/std.h
+stdio.h
+-
+
+../include/ylib/std.h
+stdlib.h
+-
+
+../include/ylib/string.h
+ylib/std.h
+../include/ylib/ylib/std.h
+string.h
+-
+
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/test_io.c
+ylib/io.h
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/ylib/io.h
+ylib/dict.h
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/ylib/dict.h
+ylib/string.h
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/ylib/string.h
+

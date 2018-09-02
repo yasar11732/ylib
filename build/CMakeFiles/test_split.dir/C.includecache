@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ylib/std.h
+stdlib.h
+-
+
+../include/ylib/string.h
+ylib/std.h
+../include/ylib/ylib/std.h
+string.h
+-
+
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/test_split.c
+stdio.h
+-
+ylib/string.h
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/ylib/string.h
+

@@ -1,0 +1,12 @@
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_strip.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_set.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/ylib.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_set2.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_string.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_dict.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_mask.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_alloc.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_split.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/test_io.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/edit_cache.dir
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ylib/set.h
+stdlib.h
+-
+
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/test_set2.c
+stdio.h
+-
+ylib/set.h
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/ylib/set.h
+

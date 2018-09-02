@@ -1,0 +1,356 @@
+Adding #include
+check slot 0l
+Putting element in slot 0
+Adding <stdio.h>
+check slot 6l
+Putting element in slot 6
+Adding #include
+check slot 0l
+Adding <stdarg.h>
+check slot 6l
+check slot 7l
+Putting element in slot 7
+Adding #include
+check slot 0l
+Adding "ylib/set.h"
+Growing set: elems:5, oldsize:8, newsize:16
+check slot 6l
+check slot 15l
+check slot 12l
+Putting element in slot 12
+Adding static
+check slot 7l
+Putting element in slot 7
+Adding inline
+check slot 2l
+Putting element in slot 2
+Adding void
+check slot 11l
+Putting element in slot 11
+Adding println(const
+check slot 9l
+Putting element in slot 9
+Adding char
+Growing set: elems:10, oldsize:16, newsize:32
+check slot 29l
+Putting element in slot 29
+Adding *str,
+check slot 26l
+Putting element in slot 26
+Adding ...)
+check slot 18l
+check slot 27l
+check slot 8l
+Putting element in slot 8
+Adding {
+check slot 4l
+Putting element in slot 4
+Adding va_list
+check slot 25l
+Putting element in slot 25
+Adding params;
+check slot 22l
+check slot 15l
+Putting element in slot 15
+Adding va_start(params,
+check slot 13l
+Putting element in slot 13
+Adding str);
+check slot 6l
+check slot 31l
+check slot 28l
+Putting element in slot 28
+Adding vprintf(str,params);
+check slot 13l
+check slot 2l
+Putting element in slot 2
+Adding putchar('\n');
+check slot 16l
+Putting element in slot 16
+Adding }
+check slot 2l
+check slot 11l
+Putting element in slot 11
+Adding int
+Growing set: elems:21, oldsize:32, newsize:64
+check slot 48l
+check slot 49l
+Putting element in slot 49
+Adding main(int
+check slot 41l
+check slot 14l
+Putting element in slot 14
+Adding argc,
+check slot 6l
+check slot 31l
+Putting element in slot 31
+Adding char
+check slot 29l
+Adding *argv[])
+check slot 16l
+Putting element in slot 16
+Adding {
+check slot 36l
+Adding if(argc
+check slot 43l
+Putting element in slot 43
+Adding <
+check slot 35l
+Putting element in slot 35
+Adding 2)
+check slot 62l
+Putting element in slot 62
+Adding exit(EXIT_FAILURE);
+check slot 28l
+Putting element in slot 28
+Adding FILE
+check slot 43l
+check slot 24l
+check slot 57l
+Putting element in slot 57
+Adding *f;
+check slot 16l
+check slot 17l
+Putting element in slot 17
+Adding char
+check slot 29l
+Adding c;
+check slot 15l
+check slot 12l
+Putting element in slot 12
+Adding char
+check slot 29l
+Adding **elems;
+check slot 6l
+check slot 31l
+check slot 28l
+check slot 13l
+check slot 2l
+Putting element in slot 2
+Adding char
+check slot 29l
+Adding buffer[0x100];
+check slot 31l
+check slot 28l
+check slot 13l
+check slot 2l
+check slot 11l
+Putting element in slot 11
+Adding struct
+check slot 42l
+Putting element in slot 42
+Adding set_head
+check slot 24l
+check slot 57l
+check slot 30l
+Putting element in slot 30
+Adding s;
+Growing set: elems:41, oldsize:64, newsize:128
+check slot 63l
+Putting element in slot 63
+Adding f
+check slot 121l
+check slot 94l
+Putting element in slot 94
+Adding =
+check slot 34l
+Putting element in slot 34
+Adding fopen(argv[1],"rb");
+check slot 114l
+Putting element in slot 114
+Adding set_init(&s);
+check slot 121l
+check slot 94l
+check slot 87l
+Putting element in slot 87
+Adding do
+check slot 78l
+check slot 7l
+Putting element in slot 7
+Adding {
+check slot 100l
+Adding c
+check slot 124l
+Putting element in slot 124
+Adding =
+check slot 34l
+Adding fscanf(f,
+check slot 74l
+Putting element in slot 74
+Adding "%s",
+check slot 91l
+Putting element in slot 91
+Adding buffer);
+check slot 79l
+Putting element in slot 79
+Adding set_add(&s,
+check slot 20l
+Putting element in slot 20
+Adding buffer);
+check slot 79l
+Adding }
+check slot 98l
+Adding while(c!=EOF);
+check slot 113l
+check slot 54l
+check slot 15l
+check slot 76l
+Putting element in slot 76
+Adding elems
+check slot 111l
+Putting element in slot 111
+Adding =
+check slot 34l
+Adding set_elems(&s);
+check slot 15l
+check slot 76l
+check slot 125l
+Putting element in slot 125
+Adding while(*elems)
+check slot 39l
+Putting element in slot 39
+Adding {
+check slot 100l
+Adding println("elem
+check slot 123l
+check slot 104l
+check slot 9l
+Putting element in slot 9
+Adding %s",
+check slot 19l
+Putting element in slot 19
+Adding *elems);
+check slot 87l
+check slot 52l
+Putting element in slot 52
+Adding elems++;
+check slot 16l
+check slot 81l
+Putting element in slot 81
+Adding }
+check slot 98l
+Adding return
+check slot 47l
+Putting element in slot 47
+Adding 0;
+check slot 70l
+check slot 95l
+check slot 92l
+check slot 77l
+check slot 2l
+Putting element in slot 2
+Adding }
+check slot 98l
+Adding }
+check slot 98l
+Add 0; to keys array
+Add **elems; to keys array
+Add do to keys array
+Add println("elem to keys array
+Add vprintf(str,params); to keys array
+Add c; to keys array
+Add *f; to keys array
+Add %s", to keys array
+Add set_add(&s, to keys array
+Add #include to keys array
+Add va_list to keys array
+Add char to keys array
+Add = to keys array
+Add < to keys array
+Add "ylib/set.h" to keys array
+Add while(*elems) to keys array
+Add main(int to keys array
+Add struct to keys array
+Add return to keys array
+Add putchar('\n'); to keys array
+Add ...) to keys array
+Add *elems); to keys array
+Add params; to keys array
+Add *str, to keys array
+Add s; to keys array
+Add str); to keys array
+Add fscanf(f, to keys array
+Add while(c!=EOF); to keys array
+Add argc, to keys array
+Add println(const to keys array
+Add buffer); to keys array
+Add *argv[]) to keys array
+Add elems++; to keys array
+Add set_init(&s); to keys array
+Add set_head to keys array
+Add "%s", to keys array
+Add exit(EXIT_FAILURE); to keys array
+Add f to keys array
+Add buffer[0x100]; to keys array
+Add } to keys array
+Add { to keys array
+Add <stdarg.h> to keys array
+Add inline to keys array
+Add if(argc to keys array
+Add va_start(params, to keys array
+Add elems to keys array
+Add int to keys array
+Add fopen(argv[1],"rb"); to keys array
+Add <stdio.h> to keys array
+Add static to keys array
+Add FILE to keys array
+Add void to keys array
+Add c to keys array
+Add set_elems(&s); to keys array
+Add 2) to keys array
+Added 55 keys in total
+elem 0;
+elem **elems;
+elem do
+elem println("elem
+elem vprintf(str,params);
+elem c;
+elem *f;
+elem %s",
+elem set_add(&s,
+elem #include
+elem va_list
+elem char
+elem =
+elem <
+elem "ylib/set.h"
+elem while(*elems)
+elem main(int
+elem struct
+elem return
+elem putchar('\n');
+elem ...)
+elem *elems);
+elem params;
+elem *str,
+elem s;
+elem str);
+elem fscanf(f,
+elem while(c!=EOF);
+elem argc,
+elem println(const
+elem buffer);
+elem *argv[])
+elem elems++;
+elem set_init(&s);
+elem set_head
+elem "%s",
+elem exit(EXIT_FAILURE);
+elem f
+elem buffer[0x100];
+elem }
+elem {
+elem <stdarg.h>
+elem inline
+elem if(argc
+elem va_start(params,
+elem elems
+elem int
+elem fopen(argv[1],"rb");
+elem <stdio.h>
+elem static
+elem FILE
+elem void
+elem c
+elem set_elems(&s);
+elem 2)

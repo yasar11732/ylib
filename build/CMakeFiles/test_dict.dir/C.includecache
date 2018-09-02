@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/ylib/dict.h
+stdlib.h
+-
+
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/test_dict.c
+stdio.h
+-
+stdarg.h
+-
+ctype.h
+-
+ylib/dict.h
+C:/Users/yasar/Dropbox/yasar_programlar/ylib/ylib/dict.h
+
